@@ -20,6 +20,8 @@ Things to change before execution :
           * Don't forget to change the clientID and clientsecret in gsuite application scope , that should be gathered using the HR's mail account that you are using in this process.
  
 Prerequisites for a better execution :
+
    *Disable the less secure access for the HR's mail and then enable the access for IMAP in the HR's mail.
+   
    *Create and generate the ClientID and ClientSecret for Gsuite application scope by creating an API in Google Cloud Platform.
    
