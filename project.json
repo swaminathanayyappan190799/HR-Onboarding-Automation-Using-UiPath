@@ -1,0 +1,57 @@
+{
+  "name": "HR Automation Using Uipath",
+  "description": "This process obtains the attachments based upon a subject from the HR mail , and then those attachments were stored in a local machine and as well as on a cloud platforms like google cloud ",
+  "main": "Main.xaml",
+  "dependencies": {
+    "UiPath.Excel.Activities": "[2.10.2-preview]",
+    "UiPath.GSuite.Activities": "[1.10.0-preview]",
+    "UiPath.Mail.Activities": "[1.10.2-preview]",
+    "UiPath.PDF.Activities": "[3.3.0]",
+    "UiPath.System.Activities": "[21.2.1-preview]",
+    "UiPath.UIAutomation.Activities": "[21.2.0-preview]",
+    "UiPathTeam.DotNetZip.Activities": "[1.0.7222.31886]"
+  },
+  "webServices": [],
+  "entitiesStores": [],
+  "schemaVersion": "4.0",
+  "studioVersion": "21.2.0.0",
+  "projectVersion": "1.0.0",
+  "runtimeOptions": {
+    "autoDispose": false,
+    "isPausable": true,
+    "requiresUserInteraction": true,
+    "supportsPersistence": false,
+    "excludedLoggedData": [
+      "Private:*",
+      "*password*"
+    ],
+    "executionType": "Workflow",
+    "readyForPiP": false,
+    "startsInPiP": false
+  },
+  "designOptions": {
+    "projectProfile": "Developement",
+    "outputType": "Process",
+    "libraryOptions": {
+      "includeOriginalXaml": false,
+      "privateWorkflows": []
+    },
+    "processOptions": {
+      "ignoredFiles": []
+    },
+    "fileInfoCollection": [],
+    "modernBehavior": false
+  },
+  "expressionLanguage": "VisualBasic",
+  "entryPoints": [
+    {
+      "filePath": "Main.xaml",
+      "uniqueId": "de0b3eec-aa33-440b-82dc-e85511567c45",
+      "input": [],
+      "output": []
+    }
+  ],
+  "isTemplate": false,
+  "templateProjectData": {},
+  "publishData": {}
+}
