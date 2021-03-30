@@ -4,8 +4,11 @@ This task was used to automate the process of onboarding performed by the Human 
 These are the things that was automated in this project :
 
 1)Downloads the attachments from HR's email , 
+
 2)Stores the downloaded files in the local machine and in the HR's google drive as well,
+
 3)The HR was then notified reagrding the successful upload of files into the google drive through mail.
+
 4)At last the final steps were mailed to the employee to complete the on boarding process.
 
 Things to change before execution :
